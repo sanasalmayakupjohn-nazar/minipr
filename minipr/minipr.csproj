@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AdminQuestions.aspx" />
+    <Content Include="logg.aspx" />
     <Content Include="PHS\quiz.png" />
     <Content Include="Quiz.aspx" />
     <Content Include="Result.aspx" />
@@ -81,6 +82,13 @@
     </Compile>
     <Compile Include="AdminQuestions.aspx.designer.cs">
       <DependentUpon>AdminQuestions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logg.aspx.cs">
+      <DependentUpon>logg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logg.aspx.designer.cs">
+      <DependentUpon>logg.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Quiz.aspx.cs">
